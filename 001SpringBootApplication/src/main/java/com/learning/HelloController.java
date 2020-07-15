@@ -20,6 +20,7 @@ public class HelloController {
 	 */
 	@RequestMapping("/hello")
 	public String hello() {
+		String str = "Hello";
 		return "Hello, World!";
 	}
 	
